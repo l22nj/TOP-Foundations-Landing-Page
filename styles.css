@@ -22,6 +22,11 @@ a {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    padding:7px 24px;
+    border-radius: 5px;
+    border: none;
+    border-color: black;
+    font-weight: bold;
 }
 
 h1, h2, p {
@@ -33,7 +38,7 @@ h1, h2, p {
     justify-content: center;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 5em 10em;
 }
 
 .main-section.one {
@@ -45,6 +50,8 @@ h1, h2, p {
 
 .main-section.two {
     align-items: center;
+    gap: 2rem;
+    color: #1F2937;
 }
 
 .main-section.three {
@@ -93,12 +100,33 @@ h1, h2, p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 1rem;
 }
 
 .two .subtitle {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.two .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.two .piltjatekst {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.two img {
+    border-radius: 5px;
+    border: 3px solid lightgray;
 }
 
 .three .quote {
@@ -119,9 +147,15 @@ h1, h2, p {
     justify-content: space-between;
     color: #E5E7EB;
     padding: 2rem 5rem 2rem 5rem;
+    border-radius: 5px;
 }
 
 .four .text {
     display: flex;
     flex-direction: column;
+}
+
+.four button {
+    border-style: solid;
+    border-color: #E5E7EB;
 }
