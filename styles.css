@@ -2,31 +2,126 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 .main-section {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    padding: 5rem 10rem 5rem 10rem;
 }
 
 .main-section.one {
+    align-items: stretch;
     background-color: #1F2937;
+    gap: 5rem;
+    padding-top: 2rem;
 }
 
 .main-section.two {
-
+    align-items: center;
 }
 
 .main-section.three {
     background-color: #E5E7EB;
+    align-items: flex-end;
 }
 
 .main-section.four {
 
 }
 
-.content {
-    width: 100px;
-    height: 100px;
+.one .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.one .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one .menu {
+    color: #E5E7EB;
+}
+
+.one .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.one .subtext,
+.one .header .menu {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.one .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.two .subtitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.three .quote {
+    font-size: 36px;
+    font-weight: 1;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.three .author {
+    font-weight: bold;
+}
+
+.four .content {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E5E7EB;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.four .text {
+    display: flex;
+    flex-direction: column;
 }
